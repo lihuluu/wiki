@@ -5,6 +5,8 @@ export default defineConfig({
   description: 'Personal knowledge base',
   base: '/wiki/',
   lastUpdated: true,
+  srcExclude: ['raw/**', 'README.md'],
+  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: [
