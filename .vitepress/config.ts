@@ -18,24 +18,44 @@ export default defineConfig({
     sidebar: {
       '/concepts/': [
         {
-          text: 'Concepts',
+          text: '包装设计流程',
+          collapsed: false,
           items: [
-            { text: 'Brief Decomposition', link: '/concepts/brief-decomposition' },
-            { text: 'Cybernetic Goal Correction', link: '/concepts/cybernetic-goal-correction' },
-            { text: 'Identity Based Change', link: '/concepts/identity-based-change' },
-            { text: 'Packaging Design Workflow', link: '/concepts/packaging-design-workflow' },
-            { text: 'Packaging Storytelling', link: '/concepts/packaging-storytelling' },
-            { text: 'Packaging Strategy Positioning', link: '/concepts/packaging-strategy-positioning' },
-            { text: 'Sustainable Packaging', link: '/concepts/sustainable-packaging' },
-            { text: 'Tea Packaging Information Architecture', link: '/concepts/tea-packaging-information-architecture' },
-            { text: 'Top Seal Packaging', link: '/concepts/top-seal-packaging' },
-            { text: 'Transparent Labeling', link: '/concepts/transparent-labeling' },
+            { text: 'Brief 拆解', link: '/concepts/brief-decomposition' },
+            { text: '设计全流程', link: '/concepts/packaging-design-workflow' },
+            { text: '策略定位', link: '/concepts/packaging-strategy-positioning' },
+            { text: '故事化叙事', link: '/concepts/packaging-storytelling' },
           ]
-        }
+        },
+        {
+          text: '材料与工艺',
+          collapsed: false,
+          items: [
+            { text: '可持续包装', link: '/concepts/sustainable-packaging' },
+            { text: '顶部密封', link: '/concepts/top-seal-packaging' },
+            { text: '透明标签', link: '/concepts/transparent-labeling' },
+          ]
+        },
+        {
+          text: '品类专项',
+          collapsed: false,
+          items: [
+            { text: '茶叶包装信息架构', link: '/concepts/tea-packaging-information-architecture' },
+          ]
+        },
+        {
+          text: '软技能与成长',
+          collapsed: true,
+          items: [
+            { text: '控制论式目标校正', link: '/concepts/cybernetic-goal-correction' },
+            { text: '身份式改变', link: '/concepts/identity-based-change' },
+          ]
+        },
       ],
       '/entities/': [
         {
           text: 'Entities',
+          collapsed: false,
           items: [
             { text: 'Oishii', link: '/entities/oishii' },
           ]
