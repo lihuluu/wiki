@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Wiki',
+  title: 'Ethan Wiki',
   description: 'Personal knowledge base',
   base: '/wiki/',
   lastUpdated: true,
@@ -10,6 +10,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
+      { text: '首页', link: '/' },
       { text: 'Concepts', link: '/concepts/packaging-design-workflow' },
       { text: 'Entities', link: '/entities/oishii' },
       { text: 'Log', link: '/log' },
