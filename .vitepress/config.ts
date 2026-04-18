@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'Personal knowledge base',
   base: '/wiki/',
   lastUpdated: true,
+  appearance: 'dark',
   srcExclude: ['raw/**', 'README.md'],
   ignoreDeadLinks: true,
 
