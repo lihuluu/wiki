@@ -10,10 +10,8 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Concepts', link: '/concepts/packaging-design-workflow' },
       { text: 'Entities', link: '/entities/oishii' },
-      { text: 'Schema', link: '/SCHEMA' },
       { text: 'Log', link: '/log' },
     ],
 

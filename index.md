@@ -1,23 +1,38 @@
-# Wiki Index
+---
+layout: home
 
-> 个人知识库目录
-> Last updated: 2026-04-18 | Total pages: 11
+hero:
+  name: Wiki
+  text: 职业知识库
+  tagline: 包装设计与跨领域洞察的渐进式积累
+  actions:
+    - theme: brand
+      text: 浏览 Concepts
+      link: /concepts/packaging-design-workflow
+    - theme: alt
+      text: 查看 Log
+      link: /log
 
-## Entities
-- [[oishii]] — 全球最大室内垂直草莓农场，Nikko Berry Tray 包装创新
+features:
+  - icon: 🎨
+    title: 包装设计
+    details: 设计流程、策略定位、可持续包装、信息架构、故事化叙事等核心概念
+    link: /concepts/packaging-design-workflow
+  - icon: 🎭
+    title: 品牌设计
+    details: 品牌视觉系统、跨文化表达、礼赠场景设计等品牌端策略
+    link: /concepts/packaging-storytelling
+  - icon: 📋
+    title: 产品经理
+    details: 需求拆解、Brief 转化、项目管理、用户洞察等产品思维
+    link: /concepts/brief-decomposition
+  - icon: 🎯
+    title: 软技能
+    details: 目标修正、身份式改变、控制论模型、知识管理等成长系统
+    link: /concepts/cybernetic-goal-correction
 
-## Concepts
-- [[brief-decomposition]] — 将模糊客户需求转成可执行包装项目输入的入口技能
-- [[cybernetic-goal-correction]] — 用反馈回路理解个人成长与目标修正的控制论模型
-- [[identity-based-change]] — 先改变“我是谁”的自我认知，再让行为和成果稳定对齐
-- [[packaging-design-workflow]] — 将包装项目拆成 8 个阶段、30 个技能节点的完整流程系统
-- [[packaging-storytelling]] — 用插画、文案、隐喻和材质把包装变成品牌叙事媒介
-- [[packaging-strategy-positioning]] — 用品牌、品类、渠道和差异化共同定义包装方向
-- [[sustainable-packaging]] — 全生命周期环境友好的包装方案
-- [[tea-packaging-information-architecture]] — 通过信息层级与阅读动线提升茶叶包装转化率
-- [[top-seal-packaging]] — 纸板托盘顶部薄膜密封，替代塑料翻盖的农产品包装方案
-- [[transparent-labeling]] — 用信息公开、溯源与标签透明化建立信任并支撑溢价
+---
 
-## Comparisons
+## 最近更新
 
-## Queries
+参见 [Log](/log) 查看完整操作记录。
