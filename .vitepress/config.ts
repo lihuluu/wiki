@@ -18,7 +18,7 @@ export default defineConfig({
     sidebar: {
       '/concepts/': [
         {
-          text: '包装设计流程',
+          text: '流程方法论',
           collapsed: false,
           items: [
             { text: 'Brief 拆解', link: '/concepts/brief-decomposition' },
@@ -37,14 +37,14 @@ export default defineConfig({
           ]
         },
         {
-          text: '品类专项',
+          text: '行业案例',
           collapsed: false,
           items: [
             { text: '茶叶包装信息架构', link: '/concepts/tea-packaging-information-architecture' },
           ]
         },
         {
-          text: '软技能与成长',
+          text: '思维模型',
           collapsed: true,
           items: [
             { text: '控制论式目标校正', link: '/concepts/cybernetic-goal-correction' },
@@ -74,7 +74,6 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
-      // Simple wikilink support: [[page-name]] -> [page-name](/wiki/page-name)
       md.inline.ruler.before('link', 'wikilink', (state, silent) => {
         const match = state.src.slice(state.pos).match(/^\[\[([^\]]+)\]\]/)
         if (!match) return false
