@@ -34,10 +34,11 @@ features:
 |------|------|------|
 | Concepts | 10 | 概念与方法论 |
 | Entities | 1 | 品牌与案例实体 |
-| **总计** | **11** | 持续更新中 |
+| **总计** | **42** | 持续更新中 |
 
 ## 最近更新
 
+- **2026-04-24** — 批量导入 26 篇 DIELINE Clippings → 新增 24 个实体案例 + 7 个概念页面
 - **2026-04-18** — 批量导入：人生修复 + 茶叶包装购买决策 → 新增 [身份式改变](/concepts/identity-based-change)、[控制论式目标校正](/concepts/cybernetic-goal-correction)、[茶叶包装信息架构](/concepts/tea-packaging-information-architecture) 等 5 个概念
 - **2026-04-18** — 导入：包装设计全流程 Skills 完整示例 → 新增 [设计全流程](/concepts/packaging-design-workflow)、[Brief 拆解](/concepts/brief-decomposition)、[策略定位](/concepts/packaging-strategy-positioning)
 - **2026-04-18** — 导入：Oishii Nikko Berry Tray 包装案例 → 新增 [Oishii](/entities/oishii) 实体与 [顶部密封包装](/concepts/top-seal-packaging)、[可持续包装](/concepts/sustainable-packaging)
@@ -49,5 +50,7 @@ features:
 | 热门概念 | 实体案例 | 工作方法 |
 |---------|---------|---------|
 | [设计全流程](/concepts/packaging-design-workflow) | [Oishii](/entities/oishii) | [Brief 拆解](/concepts/brief-decomposition) |
-| [茶叶包装信息架构](/concepts/tea-packaging-information-architecture) | | [控制论式目标校正](/concepts/cybernetic-goal-correction) |
-| [故事化叙事](/concepts/packaging-storytelling) | | [身份式改变](/concepts/identity-based-change) |
+| [茶叶包装信息架构](/concepts/tea-packaging-information-architecture) | [Graza](/entities/graza) | [控制论式目标校正](/concepts/cybernetic-goal-correction) |
+| [故事化叙事](/concepts/packaging-storytelling) | [Walmart Great Value](/entities/walmart-great-value) | [身份式改变](/concepts/identity-based-change) |
+| [可续装包装](/concepts/refillable-packaging) | [Wild](/entities/wild) | [策略定位](/concepts/packaging-strategy-positioning) |
+| [文化遗产设计](/concepts/heritage-design) | [Cora](/entities/cora) | [可持续包装](/concepts/sustainable-packaging) |

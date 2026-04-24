@@ -38,3 +38,12 @@
   - concepts/transparent-labeling.md
 - Updated:
   - index.md (11 pages total)
+## [2026-04-24] ingest | 26 篇 DIELINE Clippings 批量导入
+- Sources: raw/articles/* (26 files from DIELINE)
+- Created entities:
+  - bis, built, banana-milk, better-bagel, dianas-seafood, abcs, mittereum, brevrn-fragrances, gifted, gli-speciali, graza, manischewitz
+  - matty-matheson, moment-mints, mr-heer, nazionale, bezi, sitko-pizza, songhua-river-rice, cora, walmart-great-value, wild, workflow-candles, yiayia-and-friends
+- Created concepts:
+  - theatrical-packaging, refillable-packaging, inclusive-packaging, heritage-design, geometric-packaging, private-label-redesign, dieline-awards-2025
+- Updated: index.md (42 pages total)
+
