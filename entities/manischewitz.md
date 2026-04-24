@@ -25,7 +25,7 @@ Manischewitz 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Kosher food brand Manischewitz has been around for over 130 years, slinging traditional Jewish food like matzo, macaroons, egg noodles, gefilte fish, and cake mixes, and they’ve remained a mainstay of the kosher aisle that sits alongside the likes of Streits and Yehuda.
 
 ## 相关链接
 

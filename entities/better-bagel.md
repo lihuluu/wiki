@@ -22,7 +22,7 @@ Better Bagel 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Better Bagel has enough promise and performance to gain a toehold in the bread world, and with solid packaging, it may just have enough runway to perfect and popularize its protein and fiber-packed alt-bagel. Anyone looking to experience the hype can purchase Better Bagels direct at EatBetter.com.
 
 ## 相关链接
 

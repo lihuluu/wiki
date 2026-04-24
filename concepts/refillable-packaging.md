@@ -18,7 +18,10 @@ Refillable Packaging 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- System designed for repeated use with replacement/refill components
+- Reduces single-use plastic waste and environmental impact
+- Common in beauty, home care, and food categories
+- Requires compatibility between primary container and refill formats
 
 ## 相关案例
 

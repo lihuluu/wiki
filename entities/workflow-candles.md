@@ -25,7 +25,7 @@ Workflow Candles 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Workflow’s anti-procrastination candle packaging, designed by Oleg FireSPX, leans into precision. Each box is labeled with the burn time in bold, oversized type that feels almost like a timestamp.
 
 ## 相关链接
 

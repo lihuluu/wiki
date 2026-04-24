@@ -22,7 +22,7 @@ Moment Mints 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- MotherBar is a thoughtful CBD brand, intent on making self-care a non-negotiable part of even the busiest routines. With a refined and elevated point of view, MotherBar was created to empower women to know the best way to bring out their own best selves.
 
 ## 相关链接
 

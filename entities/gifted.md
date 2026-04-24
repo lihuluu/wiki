@@ -25,7 +25,9 @@ Gifted 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- From a new brand identity, to packaging, website, messaging, merch and more — now their message is even clearer than it was before. Sometimes it requires the bold condensed type to make sure you’re heard, to bring people together, and to emphasize the healing and thriving that’s happening here.
+- For Gifted, we created a bold and unapologetic brand identity that takes up space and commands attention. The wordmark reflects the resilience and strength of survivors, while the “G” monogram channels the Gestalt theory—representing the collective power of individuals uniting as a community.
+- Layered with condensed activist-inspired typography and an optimistic color palette, the brand strikes a balance between being trailblazing and approachable—compassionate yet fearless.
 
 ## 相关链接
 

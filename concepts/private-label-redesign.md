@@ -19,7 +19,10 @@ Private Label Redesign 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- Large-scale rebranding of retailer-owned product lines
+- Requires consistency across thousands of SKUs
+- Often streamlines architecture while improving perceived quality
+- Balances cost efficiency with elevated design standards
 
 ## 相关案例
 

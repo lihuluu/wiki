@@ -25,7 +25,7 @@ Bezi (Labneh) 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Bezi is a new brand seeking to introduce consumers to the snacking possibilities of labneh. The branding identity, designed by Red Antler, certainly helps labneh make an excellent first impression. The look is fun, and the presentation appeals to millennials and Gen Z consumers.
 
 ## 相关链接
 

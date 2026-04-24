@@ -22,7 +22,8 @@ Mr. Heer's 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Heer Health’s service functions are rich, and the first-choice products to be listed are functional product lines such as “sex care” (external delay spray series, external delay wipe series, natural latex rubber condom series, lubricating fluid series, etc.), packaging design.
+- The core visual auxiliary graphics of the product are constantly changing geometric figures, which change from small to large, and extend from weak to strong, which accurately conveys the efficacy and psychological hinting characteristics of the product.
 
 ## 相关链接
 

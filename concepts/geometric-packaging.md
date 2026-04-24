@@ -18,7 +18,10 @@ Geometric Packaging Design 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- Uses mathematical shapes, patterns, and structural forms
+- Creates visual rhythm and modular systems
+- Often features ever-changing or dynamic compositions
+- Strong shelf presence through distinctive silhouette and pattern
 
 ## 相关案例
 

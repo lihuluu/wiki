@@ -19,7 +19,10 @@ Heritage Design 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- Draws from cultural traditions, history, and regional identity
+- Balances authentic references with contemporary execution
+- Common in food, beverage, and luxury categories
+- Creates emotional connection through storytelling and nostalgia
 
 ## 相关案例
 

@@ -25,7 +25,10 @@ BREVRN Fragrances 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Premium home fragrance brand using robust stainless steel canisters
+- Primary packaging provides durability and refillability
+- Secondary packaging reflects high quality ingredients and elevated price point
+- ASTM Candle Fire Safety compliant with third-party testing
 
 ## 相关链接
 

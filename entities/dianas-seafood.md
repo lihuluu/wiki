@@ -25,7 +25,10 @@ Diana's Seafood 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Wedge’s packaging for Diana’s makes a bold statement with oversized typography and an unapologetic use of color. The deep blue and warm yellow contrast against a crisp white background, giving the seafood brand a strong shelf presence.
+- “Design a consumer brand that makes a line of quality seafood products desirable for everyone and distinct in the category.”
+- How did you execute the brief and what were some of the strategic design elements that you built into the brand?
+- The name Diana’s had to be instantly recognizable, so we designed a strong wordmark that stands proud and bold on every pack, ensuring visibility from across the shelf (just like a name on a boat across the harbor).
 
 ## 相关链接
 

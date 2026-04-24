@@ -25,7 +25,7 @@ Wild 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Keeping the design compatible with multiple refill options ensures that Wild can remain agile, consistently iterating on the refill packaging to ensure they are putting the planet first without being restricted by legacy design work.
 
 ## 相关链接
 

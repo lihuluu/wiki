@@ -25,7 +25,7 @@ Matty Matheson Pantry 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- To translate his vision into a timeless brand with bold shelf appeal, Matheson worked with design agency Wedge to design memorable and dynamic packaging that authentically reflects the celeb chef.
 
 ## 相关链接
 

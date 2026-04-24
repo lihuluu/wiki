@@ -25,7 +25,11 @@ Mittereum 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- With these principles in mind, we developed a collection that evokes sophistication and luxury, based on the brand’s different aromas and distinguishing them through its product SKUs.
+- We selected the most iconic scents of the brand, and under the theme of unity, we created a futuristic concept, embossed with foil on the top in each aroma’s corresponding color.
+- The brand’s core value is the fusion of tradition and modern technology. The visual system we created is designed to be scalable, allowing for seamless expansion with future products the brand may introduce.
+- Creative Direction & Design: Alvaro García  
+Visuals: Miquel Nadal
 
 ## 相关链接
 

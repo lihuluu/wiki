@@ -22,7 +22,7 @@ BUILT 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- We solidified BUILT’s strategic foundation and defined its persona to use as a springboard for design. We reimagined the wordmark and the packaging portfolio architecture, bringing in a more contemporary wordmark and amped up appetite appeal to deliver on the brands’ unique PUFF texture and delicious (borderline indulgent) taste.
 
 ## 相关链接
 

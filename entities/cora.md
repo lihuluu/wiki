@@ -25,7 +25,7 @@ Cora 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- But there’s also strength in standing out with greater purpose, especially when you’re trying to create something inclusive and more eco-conscious. Cora’s brand refresh, developed by Mother Design, does just that, and they even snagged the 2023 Dieline Award for Best Redesign doing so.
 
 ## 相关链接
 

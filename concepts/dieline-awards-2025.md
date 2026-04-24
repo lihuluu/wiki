@@ -18,7 +18,10 @@ DIELINE Awards 2025 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- Annual packaging design competition hosted by DIELINE
+- 16th year celebrating excellence across categories
+- Winners represent global innovation in structural and graphic design
+- 2025 winners span food, beverage, beauty, and sustainable packaging
 
 ## 相关案例
 

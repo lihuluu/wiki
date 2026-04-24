@@ -25,7 +25,10 @@ Nazionale 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Nazionale is a brand that captures the essence of Italian heritage, celebrating the authenticity of two iconic spirits, Amaro Nazionale and Limoncello Nazionale, reimagined with a premium touch.
+- The overall design blends, in fact, Italian tradition with the contemporary, refined aesthetic of the premium bartending world.
+- The bottles are crafted as stylized representations of foosball players, featuring their distinctive colors: red vs. blue, amaro vs. limoncello – a unique design that ensures immediate recognizability and iconicity.
+- The spherical custom cap serves as the head, while the shaped label on the front of the bottle becomes the player’s body. The circular back label represents the ball, and the paper used evokes its typical surface.
 
 ## 相关链接
 

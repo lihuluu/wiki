@@ -25,7 +25,7 @@ BIS! (Sammontana) 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Sammontana’s new BIS! ice cream sandwiches are presented in bold, theatrical packaging that captures the brand’s playful spirit, turning every product into a show-stopping experience. The vibrant design, created by the dynamic team at Auge Design led by Davide Mosconi, uses poster-like graphics to make this unique dessert impossible to miss.
 
 ## 相关链接
 

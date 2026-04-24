@@ -22,7 +22,7 @@ Songhua River Rice 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- This striking unique packagings are both creative and aesthetical alongside with a good moral, keeping a deep impression to the consumers. It helps enhancing the customer’s favor for the brand, as well as the brand marketers to complete a successful marketing.
 
 ## 相关链接
 

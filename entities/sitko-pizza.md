@@ -22,7 +22,10 @@ Sitko Pizza 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Inspired by the many shapes a dough ball can take — dynamic geometric forms
+- Designed by Werklig with bold, dissident brand strategy
+- Visual identity refuses stereotyping, draws from subcultures
+- Dough ball as heart and soul — living ecosystem metaphor
 
 ## 相关链接
 

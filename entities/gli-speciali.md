@@ -22,7 +22,7 @@ Gli Speciali by Alica 的包装设计案例，收录于 DIELINE 文章。
 
 ## 关键特点
 
-- 待补充详细分析
+- Everything – the concept, the colours, the signs and the shapes – is, thought to revolve around what has the most centrality in this product: the ingredient.
 
 ## 相关链接
 

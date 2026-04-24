@@ -18,7 +18,10 @@ Theatrical Packaging 是包装设计领域的一个重要概念。
 
 ## 核心要点
 
-- 待补充详细分析
+- Packaging designed to create a sense of spectacle and drama
+- Uses bold, poster-like graphics and unconventional compositions
+- Transforms product into a show-stopping experience
+- Often incorporates hyper-realistic imagery and choreographic layouts
 
 ## 相关案例
 
