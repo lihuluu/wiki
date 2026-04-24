@@ -77,6 +77,7 @@ export default defineConfig({
             { text: '设计全流程', link: '/concepts/packaging-design-workflow' },
             { text: '策略定位', link: '/concepts/packaging-strategy-positioning' },
             { text: '故事化叙事', link: '/concepts/packaging-storytelling' },
+            { text: 'DIELINE Awards 2025', link: '/concepts/dieline-awards-2025' },
           ]
         },
         {
@@ -86,6 +87,9 @@ export default defineConfig({
             { text: '可持续包装', link: '/concepts/sustainable-packaging' },
             { text: '顶部密封', link: '/concepts/top-seal-packaging' },
             { text: '透明标签', link: '/concepts/transparent-labeling' },
+            { text: '可续装包装', link: '/concepts/refillable-packaging' },
+            { text: '包容性包装', link: '/concepts/inclusive-packaging' },
+            { text: '几何包装', link: '/concepts/geometric-packaging' },
           ]
         },
         {
@@ -93,6 +97,9 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '茶叶包装信息架构', link: '/concepts/tea-packaging-information-architecture' },
+            { text: '文化遗产设计', link: '/concepts/heritage-design' },
+            { text: '自有品牌重塑', link: '/concepts/private-label-redesign' },
+            { text: '戏剧化包装', link: '/concepts/theatrical-packaging' },
           ]
         },
         {
@@ -106,7 +113,49 @@ export default defineConfig({
       ],
       '/entities/': [
         {
-          text: 'Entities',
+          text: '食品与饮料',
+          collapsed: false,
+          items: [
+            { text: 'BIS! (Sammontana)', link: '/entities/bis' },
+            { text: 'BUILT', link: '/entities/built' },
+            { text: 'Banana Milk', link: '/entities/banana-milk' },
+            { text: 'Better Bagel', link: '/entities/better-bagel' },
+            { text: 'Diana\'s Seafood', link: '/entities/dianas-seafood' },
+            { text: 'Gli Speciali by Alica', link: '/entities/gli-speciali' },
+            { text: 'Graza', link: '/entities/graza' },
+            { text: 'Manischewitz', link: '/entities/manischewitz' },
+            { text: 'Matty Matheson Pantry', link: '/entities/matty-matheson' },
+            { text: 'Moment Mints', link: '/entities/moment-mints' },
+            { text: 'Sitko Pizza', link: '/entities/sitko-pizza' },
+            { text: 'Songhua River Rice', link: '/entities/songhua-river-rice' },
+            { text: 'Yiayia and Friends', link: '/entities/yiayia-and-friends' },
+          ]
+        },
+        {
+          text: '美妆与个护',
+          collapsed: false,
+          items: [
+            { text: 'BREVRN Fragrances', link: '/entities/brevrn-fragrances' },
+            { text: 'Mittereum', link: '/entities/mittereum' },
+            { text: 'Wild', link: '/entities/wild' },
+            { text: 'Workflow Candles', link: '/entities/workflow-candles' },
+          ]
+        },
+        {
+          text: '零售与品牌',
+          collapsed: false,
+          items: [
+            { text: 'ABCs', link: '/entities/abcs' },
+            { text: 'Bezi (Labneh)', link: '/entities/bezi' },
+            { text: 'Cora', link: '/entities/cora' },
+            { text: 'Gifted', link: '/entities/gifted' },
+            { text: 'Mr. Heer\'s', link: '/entities/mr-heer' },
+            { text: 'Nazionale', link: '/entities/nazionale' },
+            { text: 'Walmart Great Value', link: '/entities/walmart-great-value' },
+          ]
+        },
+        {
+          text: '其他',
           collapsed: false,
           items: [
             { text: 'Oishii', link: '/entities/oishii' },
