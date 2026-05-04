@@ -8,13 +8,6 @@
 - Structure created with SCHEMA.md, index.md, log.md
 - Tag taxonomy defined: 7 categories, 30+ tags
 
-## [2026-04-18] ingest | Oishii Nikko Berry Tray 包装案例
-- Source: raw/articles/oishii-nikko-berry-tray-the-dieline-2026.md
-- Created pages:
-  - entities/oishii.md
-  - concepts/top-seal-packaging.md
-  - concepts/sustainable-packaging.md
-- Updated: index.md (3 pages total)
 
 ## [2026-04-18] ingest | 包装设计全流程 Skills 完整示例
 - Source: raw/articles/packaging-design-full-process-skills-complete-example-2026-04-18.md
@@ -23,7 +16,6 @@
   - concepts/brief-decomposition.md
   - concepts/packaging-strategy-positioning.md
 - Updated:
-  - concepts/sustainable-packaging.md
   - index.md (6 pages total)
 
 ## [2026-04-18] ingest | 两篇来源批量导入：人生修复 + 茶叶包装购买决策
@@ -38,18 +30,16 @@
   - concepts/transparent-labeling.md
 - Updated:
   - index.md (11 pages total)
-## [2026-04-24] ingest | 26 篇 DIELINE Clippings 批量导入
-- Sources: raw/articles/* (26 files from DIELINE)
-- Created entities:
-  - bis, built, banana-milk, better-bagel, dianas-seafood, abcs, mittereum, brevrn-fragrances, gifted, gli-speciali, graza, manischewitz
-  - matty-matheson, moment-mints, mr-heer, nazionale, bezi, sitko-pizza, songhua-river-rice, cora, walmart-great-value, wild, workflow-candles, yiayia-and-friends
-- Created concepts:
-  - theatrical-packaging, refillable-packaging, inclusive-packaging, heritage-design, geometric-packaging, private-label-redesign, dieline-awards-2025
-- Updated: index.md (42 pages total)
 
 ## [2026-05-04] ingest | ChatGPT 分享：烫金工艺解析
 - Source: raw/articles/hot-stamping-process-chatgpt-share-2026-05-04.md
 - Created pages:
   - concepts/hot-stamping.md
 - Updated: index.md (43 pages total)
+
+## [2026-05-04] cleanup | 删除测试来源
+- Removed raw test sources: 27 files
+- Removed test-derived entity pages: 25 files
+- Removed test-derived concept pages: 9 files
+- Updated: index.md, hot-stamping related links, VitePress navigation
 

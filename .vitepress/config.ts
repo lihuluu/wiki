@@ -106,7 +106,6 @@ function buildConceptSidebar(): SidebarGroup[] {
         'packaging-design-workflow',
         'packaging-strategy-positioning',
         'packaging-storytelling',
-        'dieline-awards-2025',
       ]),
     },
     {
@@ -114,12 +113,7 @@ function buildConceptSidebar(): SidebarGroup[] {
       collapsed: false,
       items: pickItems(all, [
         'hot-stamping',
-        'sustainable-packaging',
-        'top-seal-packaging',
         'transparent-labeling',
-        'refillable-packaging',
-        'inclusive-packaging',
-        'geometric-packaging',
       ]),
     },
     {
@@ -127,9 +121,6 @@ function buildConceptSidebar(): SidebarGroup[] {
       collapsed: false,
       items: pickItems(all, [
         'tea-packaging-information-architecture',
-        'heritage-design',
-        'private-label-redesign',
-        'theatrical-packaging',
       ]),
     },
     {
@@ -151,6 +142,13 @@ function buildConceptSidebar(): SidebarGroup[] {
 
 const conceptSidebar = buildConceptSidebar()
 
+function buildEntitySidebar(): SidebarGroup[] {
+  const all = listMarkdownPages('entities')
+  return all.length ? [{ text: '实体案例', collapsed: false, items: all }] : []
+}
+
+const entitySidebar = buildEntitySidebar()
+
 export default defineConfig({
   title: 'Ethan Wiki',
   description: 'Personal knowledge base',
@@ -163,63 +161,12 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Concepts', link: '/concepts/packaging-design-workflow' },
-      { text: 'Entities', link: '/entities/oishii' },
       { text: 'Log', link: '/log' },
     ],
 
     sidebar: {
       '/concepts/': conceptSidebar,
-      '/entities/': [
-        {
-          text: '食品与饮料',
-          collapsed: false,
-          items: [
-            { text: 'BIS! (Sammontana)', link: '/entities/bis' },
-            { text: 'BUILT', link: '/entities/built' },
-            { text: 'Banana Milk', link: '/entities/banana-milk' },
-            { text: 'Better Bagel', link: '/entities/better-bagel' },
-            { text: 'Diana\'s Seafood', link: '/entities/dianas-seafood' },
-            { text: 'Gli Speciali by Alica', link: '/entities/gli-speciali' },
-            { text: 'Graza', link: '/entities/graza' },
-            { text: 'Manischewitz', link: '/entities/manischewitz' },
-            { text: 'Matty Matheson Pantry', link: '/entities/matty-matheson' },
-            { text: 'Moment Mints', link: '/entities/moment-mints' },
-            { text: 'Sitko Pizza', link: '/entities/sitko-pizza' },
-            { text: 'Songhua River Rice', link: '/entities/songhua-river-rice' },
-            { text: 'Yiayia and Friends', link: '/entities/yiayia-and-friends' },
-          ]
-        },
-        {
-          text: '美妆与个护',
-          collapsed: false,
-          items: [
-            { text: 'BREVRN Fragrances', link: '/entities/brevrn-fragrances' },
-            { text: 'Mittereum', link: '/entities/mittereum' },
-            { text: 'Wild', link: '/entities/wild' },
-            { text: 'Workflow Candles', link: '/entities/workflow-candles' },
-          ]
-        },
-        {
-          text: '零售与品牌',
-          collapsed: false,
-          items: [
-            { text: 'ABCs', link: '/entities/abcs' },
-            { text: 'Bezi (Labneh)', link: '/entities/bezi' },
-            { text: 'Cora', link: '/entities/cora' },
-            { text: 'Gifted', link: '/entities/gifted' },
-            { text: 'Mr. Heer\'s', link: '/entities/mr-heer' },
-            { text: 'Nazionale', link: '/entities/nazionale' },
-            { text: 'Walmart Great Value', link: '/entities/walmart-great-value' },
-          ]
-        },
-        {
-          text: '其他',
-          collapsed: false,
-          items: [
-            { text: 'Oishii', link: '/entities/oishii' },
-          ]
-        }
-      ],
+      '/entities/': entitySidebar,
     },
 
     socialLinks: [

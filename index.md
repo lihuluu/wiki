@@ -15,10 +15,10 @@ hero:
 
 features:
   - title: 包装设计
-    details: 设计流程、策略定位、可持续包装等核心概念
+    details: 设计流程、策略定位、材料工艺与生产落地
     link: /concepts/packaging-design-workflow
   - title: 品牌设计
-    details: 品牌视觉、跨文化表达、礼赠场景等品牌端策略
+    details: 品牌视觉、叙事表达、礼赠场景等品牌端策略
     link: /concepts/packaging-storytelling
   - title: 产品经理
     details: 需求拆解、Brief 转化、用户洞察等产品思维
@@ -32,27 +32,26 @@ features:
 
 | 类型 | 数量 | 说明 |
 |------|------|------|
-| Concepts | 11 | 概念与方法论 |
-| Entities | 1 | 品牌与案例实体 |
-| **总计** | **43** | 持续更新中 |
+| Concepts | 9 | 概念与方法论 |
+| Entities | 0 | 品牌与案例实体 |
+| **总计** | **9** | 测试内容已清理，持续更新中 |
 
 ## 最近更新
 
+- **2026-05-04** — 清理测试来源及其生成页面
 - **2026-05-04** — 导入 ChatGPT 分享：烫金工艺解析 → 新增 [烫金工艺](/concepts/hot-stamping)
-- **2026-04-24** — 批量导入 26 篇 DIELINE Clippings → 新增 24 个实体案例 + 7 个概念页面
 - **2026-04-18** — 批量导入：人生修复 + 茶叶包装购买决策 → 新增 [身份式改变](/concepts/identity-based-change)、[控制论式目标校正](/concepts/cybernetic-goal-correction)、[茶叶包装信息架构](/concepts/tea-packaging-information-architecture) 等 5 个概念
 - **2026-04-18** — 导入：包装设计全流程 Skills 完整示例 → 新增 [设计全流程](/concepts/packaging-design-workflow)、[Brief 拆解](/concepts/brief-decomposition)、[策略定位](/concepts/packaging-strategy-positioning)
-- **2026-04-18** — 导入：Oishii Nikko Berry Tray 包装案例 → 新增 [Oishii](/entities/oishii) 实体与 [顶部密封包装](/concepts/top-seal-packaging)、[可持续包装](/concepts/sustainable-packaging)
 
 → [查看完整 Log](/log)
 
 ## 快速入口
 
-| 热门概念 | 实体案例 | 工作方法 |
-|---------|---------|---------|
-| [设计全流程](/concepts/packaging-design-workflow) | [Oishii](/entities/oishii) | [Brief 拆解](/concepts/brief-decomposition) |
-| [茶叶包装信息架构](/concepts/tea-packaging-information-architecture) | [Graza](/entities/graza) | [控制论式目标校正](/concepts/cybernetic-goal-correction) |
-| [烫金工艺](/concepts/hot-stamping) | [Songhua River Rice](/entities/songhua-river-rice) | [策略定位](/concepts/packaging-strategy-positioning) |
-| [故事化叙事](/concepts/packaging-storytelling) | [Walmart Great Value](/entities/walmart-great-value) | [身份式改变](/concepts/identity-based-change) |
-| [可续装包装](/concepts/refillable-packaging) | [Wild](/entities/wild) | [策略定位](/concepts/packaging-strategy-positioning) |
-| [文化遗产设计](/concepts/heritage-design) | [Cora](/entities/cora) | [可持续包装](/concepts/sustainable-packaging) |
+| 热门概念 | 工作方法 |
+|---------|---------|
+| [包装设计全流程](/concepts/packaging-design-workflow) | [Brief 拆解](/concepts/brief-decomposition) |
+| [茶叶包装信息架构](/concepts/tea-packaging-information-architecture) | [包装策略定位](/concepts/packaging-strategy-positioning) |
+| [烫金工艺](/concepts/hot-stamping) | [控制论式目标校正](/concepts/cybernetic-goal-correction) |
+| [包装故事化叙事](/concepts/packaging-storytelling) | [身份式改变](/concepts/identity-based-change) |
+| [包装策略定位](/concepts/packaging-strategy-positioning) |  |
+| [Brief 拆解](/concepts/brief-decomposition) |  |
