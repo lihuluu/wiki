@@ -47,3 +47,9 @@
   - theatrical-packaging, refillable-packaging, inclusive-packaging, heritage-design, geometric-packaging, private-label-redesign, dieline-awards-2025
 - Updated: index.md (42 pages total)
 
+## [2026-05-04] ingest | ChatGPT 分享：烫金工艺解析
+- Source: raw/articles/hot-stamping-process-chatgpt-share-2026-05-04.md
+- Created pages:
+  - concepts/hot-stamping.md
+- Updated: index.md (43 pages total)
+
