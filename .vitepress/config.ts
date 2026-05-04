@@ -51,6 +51,106 @@ function buildWikiLinkMap(): Record<string, string> {
 
 const wikiLinkMap = buildWikiLinkMap()
 
+type SidebarItem = { text: string; link: string }
+type SidebarGroup = { text: string; collapsed: boolean; items: SidebarItem[] }
+
+function getFrontmatterValue(content: string, key: string): string | undefined {
+  const fm = content.match(/^---\n([\s\S]*?)\n---/)
+  if (!fm) return undefined
+  const line = fm[1].split('\n').find((l) => l.trim().startsWith(`${key}:`))
+  return line?.replace(new RegExp(`^${key}:\\s*`), '').trim().replace(/^['"]|['"]$/g, '')
+}
+
+function getMarkdownTitle(filePath: string): string {
+  const content = fs.readFileSync(filePath, 'utf-8')
+  const fmTitle = getFrontmatterValue(content, 'title')
+  if (fmTitle) return fmTitle
+  const h1 = content.match(/^#\s+(.+)$/m)
+  if (h1) return h1[1].replace(/\s*\(.+?\)\s*$/, '').trim()
+  return path.basename(filePath, '.md')
+}
+
+function listMarkdownPages(dirName: string): SidebarItem[] {
+  const dir = path.join(WIKI_ROOT, dirName)
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir)
+    .filter((name) => name.endsWith('.md'))
+    .map((name) => {
+      const fullPath = path.join(dir, name)
+      return {
+        text: getMarkdownTitle(fullPath),
+        link: `/${dirName}/${name.replace(/\.md$/, '')}`,
+      }
+    })
+    .sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans'))
+}
+
+function pickItems(all: SidebarItem[], slugs: string[]): SidebarItem[] {
+  const bySlug = new Map(all.map((item) => [item.link.split('/').pop(), item]))
+  return slugs.map((slug) => bySlug.get(slug)).filter(Boolean) as SidebarItem[]
+}
+
+function withoutPicked(all: SidebarItem[], groups: SidebarGroup[]): SidebarItem[] {
+  const picked = new Set(groups.flatMap((g) => g.items.map((item) => item.link)))
+  return all.filter((item) => !picked.has(item.link))
+}
+
+function buildConceptSidebar(): SidebarGroup[] {
+  const all = listMarkdownPages('concepts')
+  const groups: SidebarGroup[] = [
+    {
+      text: '流程方法论',
+      collapsed: false,
+      items: pickItems(all, [
+        'brief-decomposition',
+        'packaging-design-workflow',
+        'packaging-strategy-positioning',
+        'packaging-storytelling',
+        'dieline-awards-2025',
+      ]),
+    },
+    {
+      text: '材料与工艺',
+      collapsed: false,
+      items: pickItems(all, [
+        'hot-stamping',
+        'sustainable-packaging',
+        'top-seal-packaging',
+        'transparent-labeling',
+        'refillable-packaging',
+        'inclusive-packaging',
+        'geometric-packaging',
+      ]),
+    },
+    {
+      text: '行业案例',
+      collapsed: false,
+      items: pickItems(all, [
+        'tea-packaging-information-architecture',
+        'heritage-design',
+        'private-label-redesign',
+        'theatrical-packaging',
+      ]),
+    },
+    {
+      text: '思维模型',
+      collapsed: true,
+      items: pickItems(all, [
+        'cybernetic-goal-correction',
+        'identity-based-change',
+      ]),
+    },
+  ]
+
+  const uncategorized = withoutPicked(all, groups)
+  if (uncategorized.length) {
+    groups.push({ text: '未分类', collapsed: false, items: uncategorized })
+  }
+  return groups
+}
+
+const conceptSidebar = buildConceptSidebar()
+
 export default defineConfig({
   title: 'Ethan Wiki',
   description: 'Personal knowledge base',
@@ -68,49 +168,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/concepts/': [
-        {
-          text: '流程方法论',
-          collapsed: false,
-          items: [
-            { text: 'Brief 拆解', link: '/concepts/brief-decomposition' },
-            { text: '设计全流程', link: '/concepts/packaging-design-workflow' },
-            { text: '策略定位', link: '/concepts/packaging-strategy-positioning' },
-            { text: '故事化叙事', link: '/concepts/packaging-storytelling' },
-            { text: 'DIELINE Awards 2025', link: '/concepts/dieline-awards-2025' },
-          ]
-        },
-        {
-          text: '材料与工艺',
-          collapsed: false,
-          items: [
-            { text: '可持续包装', link: '/concepts/sustainable-packaging' },
-            { text: '顶部密封', link: '/concepts/top-seal-packaging' },
-            { text: '透明标签', link: '/concepts/transparent-labeling' },
-            { text: '可续装包装', link: '/concepts/refillable-packaging' },
-            { text: '包容性包装', link: '/concepts/inclusive-packaging' },
-            { text: '几何包装', link: '/concepts/geometric-packaging' },
-          ]
-        },
-        {
-          text: '行业案例',
-          collapsed: false,
-          items: [
-            { text: '茶叶包装信息架构', link: '/concepts/tea-packaging-information-architecture' },
-            { text: '文化遗产设计', link: '/concepts/heritage-design' },
-            { text: '自有品牌重塑', link: '/concepts/private-label-redesign' },
-            { text: '戏剧化包装', link: '/concepts/theatrical-packaging' },
-          ]
-        },
-        {
-          text: '思维模型',
-          collapsed: true,
-          items: [
-            { text: '控制论式目标校正', link: '/concepts/cybernetic-goal-correction' },
-            { text: '身份式改变', link: '/concepts/identity-based-change' },
-          ]
-        },
-      ],
+      '/concepts/': conceptSidebar,
       '/entities/': [
         {
           text: '食品与饮料',
