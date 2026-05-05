@@ -129,6 +129,8 @@ function buildConceptSidebar(): SidebarGroup[] {
       items: pickItems(all, [
         'cybernetic-goal-correction',
         'identity-based-change',
+        'onebag-travel-system',
+        'minimalist-packing-system',
       ]),
     },
   ]
@@ -149,6 +151,13 @@ function buildEntitySidebar(): SidebarGroup[] {
 
 const entitySidebar = buildEntitySidebar()
 
+function buildSourceSidebar(): SidebarGroup[] {
+  const all = listMarkdownPages('sources')
+  return all.length ? [{ text: '来源摘要', collapsed: false, items: all }] : []
+}
+
+const sourceSidebar = buildSourceSidebar()
+
 export default defineConfig({
   title: 'Ethan Wiki',
   description: 'Personal knowledge base',
@@ -160,13 +169,16 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Concepts', link: '/concepts/packaging-design-workflow' },
-      { text: 'Log', link: '/log' },
+      { text: '概念', link: '/concepts/packaging-design-workflow' },
+      { text: '实体', link: '/entities/jeremy-maluf' },
+      { text: '来源', link: '/sources/indefinite-backpack-travel-jeremy-maluf' },
+      { text: '日志', link: '/log' },
     ],
 
     sidebar: {
       '/concepts/': conceptSidebar,
       '/entities/': entitySidebar,
+      '/sources/': sourceSidebar,
     },
 
     socialLinks: [

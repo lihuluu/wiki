@@ -35,7 +35,7 @@ sources: [raw/articles/source-name.md]
 - mental-models, decision-making, critical-thinking, systems-thinking, cognitive-bias
 
 ### 生产力与习惯
-- productivity, deep-work, habits, time-management, attention-management, focus
+- productivity, deep-work, habits, time-management, attention-management, focus, travel, minimalism
 
 ### 工具与技术
 - obsidian, markdown, automation, ai-tools, search, annotation, read-later

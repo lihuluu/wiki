@@ -43,3 +43,14 @@
 - Removed test-derived concept pages: 9 files
 - Updated: index.md, hot-stamping related links, VitePress navigation
 
+## [2026-05-05] ingest | Jeremy Maluf《Indefinite Backpack Travel》
+- Source URL: https://jeremymaluf.com/onebag/
+- Raw source: raw/articles/indefinite-backpack-travel-jeremy-maluf-2026-05-05.md
+- Created pages:
+  - sources/indefinite-backpack-travel-jeremy-maluf.md
+  - concepts/onebag-travel-system.md
+  - concepts/minimalist-packing-system.md
+  - entities/jeremy-maluf.md
+- Updated:
+  - index.md
+  - .vitepress/config.ts
