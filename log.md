@@ -43,6 +43,17 @@
 - Removed test-derived concept pages: 9 files
 - Updated: index.md, hot-stamping related links, VitePress navigation
 
+## [2026-05-07] ingest | ChatGPT 分享：包装设计师能力提升体系
+- Source URL: https://chatgpt.com/g/g-69fc987f17c881918f5f066efef6eca4-shi-jie-ji-zhuan-jia/c/69fc991c-ae5c-83a9-80d2-3ad1347b4c71
+- Raw source: raw/articles/packaging-designer-skill-framework-2026-05-07.md
+- Created pages:
+  - concepts/packaging-designer-six-layer-model.md
+  - concepts/packaging-deconstruction-template.md
+  - concepts/packaging-project-checklist.md
+- Updated:
+  - index.md (15 pages total)
+  - .vitepress/config.ts
+
 ## [2026-05-05] ingest | Jeremy Maluf《Indefinite Backpack Travel》
 - Source URL: https://jeremymaluf.com/onebag/
 - Raw source: raw/articles/indefinite-backpack-travel-jeremy-maluf-2026-05-05.md

@@ -32,12 +32,13 @@ features:
 
 | 类型 | 数量 | 说明 |
 |------|------|------|
-| Concepts | 11 | 概念与方法论 |
-| Entities | 1 | 人物、品牌与案例实体 |
-| **总计** | **12** | 持续更新中 |
+| Concepts | 14 | 概念与方法论 |
+|| Entities | 1 | 人物、品牌与案例实体 |
+|| **总计** | **15** | 持续更新中 |
 
 ## 最近更新
 
+- **2026-05-07** — 导入 ChatGPT 分享：包装设计师能力提升体系 → 新增 [包装设计能力六层模型](/concepts/packaging-designer-six-layer-model)、[包装拆解模板](/concepts/packaging-deconstruction-template)、[包装项目检查清单](/concepts/packaging-project-checklist)
 - **2026-05-05** — 导入 Jeremy Maluf《Indefinite Backpack Travel》→ 新增 [单包旅行系统](/concepts/onebag-travel-system)、[极简打包系统](/concepts/minimalist-packing-system)、[Jeremy Maluf](/entities/jeremy-maluf)
 - **2026-05-04** — 清理测试来源及其生成页面
 - **2026-05-04** — 导入 ChatGPT 分享：烫金工艺解析 → 新增 [烫金工艺](/concepts/hot-stamping)

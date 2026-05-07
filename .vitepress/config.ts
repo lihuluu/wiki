@@ -106,6 +106,9 @@ function buildConceptSidebar(): SidebarGroup[] {
         'packaging-design-workflow',
         'packaging-strategy-positioning',
         'packaging-storytelling',
+        'packaging-designer-six-layer-model',
+        'packaging-deconstruction-template',
+        'packaging-project-checklist',
       ]),
     },
     {
