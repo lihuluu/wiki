@@ -65,3 +65,8 @@
 - Updated:
   - index.md
   - .vitepress/config.ts
+
+## [2026-05-19] ingest | 烫金氧化原因分析
+- Source: raw/articles/hot-stamping-oxidation-causes-2026-05-19.md
+- Updated pages:
+  - concepts/hot-stamping.md（新增「烫金氧化问题」章节，含氧化诱因与预防措施）
