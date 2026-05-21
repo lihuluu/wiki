@@ -124,6 +124,7 @@ function buildConceptSidebar(): SidebarGroup[] {
       collapsed: false,
       items: pickItems(all, [
         'tea-packaging-information-architecture',
+        'brand-rename-and-category-expansion',
       ]),
     },
     {

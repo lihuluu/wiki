@@ -70,3 +70,13 @@
 - Source: raw/articles/hot-stamping-oxidation-causes-2026-05-19.md
 - Updated pages:
   - concepts/hot-stamping.md（新增「烫金氧化问题」章节，含氧化诱因与预防措施）
+
+## [2026-05-21] ingest | The Dieline：Cocolab 品牌重塑
+- Source URL: https://thedieline.com/wedge-brings-dental-dopamine-to-cocolab-rebrand/
+- Raw source: raw/articles/cocolab-rebrand-thedieline-2026-05-21.md
+- Created pages:
+  - entities/cocolab.md（Cocolab 品牌重塑案例）
+  - entities/wedge.md（Wedge 设计公司）
+  - concepts/brand-rename-and-category-expansion.md（品牌重塑中的命名与品类扩展）
+- Updated:
+  - index.md（18 pages total）
